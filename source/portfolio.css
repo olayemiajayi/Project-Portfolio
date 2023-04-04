@@ -1,8 +1,25 @@
+:root {
+  --primary-color: #ffb5b5;
+  --main-color: #c7ffff;
+  --secondary-color: #e7f3ee;
+}
 h1 {
-  color: white;
-  background-color: blue;
   font-family: "Poppins", sans-serif;
+  font-style: bold;
+  font-size: 60px;
 }
 p {
   font-family: "Cardo", serif;
+  font-weight: normal;
+  font-size: 30px;
+}
+.fashion {
+  background: var(--primary-color);
+  text-align: center;
+  padding: 60px;
+}
+.design {
+  font-style: italic;
+  font-family: "Cardo", serif;
+  font-size: 22px;
 }
