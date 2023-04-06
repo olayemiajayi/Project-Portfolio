@@ -2,7 +2,9 @@
   --primary-color: #ffb5b5;
   --main-color: #c7ffff;
   --secondary-color: #e7f3ee;
+  --mono-color: #062925;
 }
+
 h1 {
   font-family: "Poppins", sans-serif;
   font-style: bold;
@@ -42,10 +44,11 @@ hr {
   width: 80%;
   margin-left: 100px;
 }
-.about {
+.telling {
+  display: block;
+  text-align: left;
   opacity: 0.6;
   font-variant: small-caps;
-  padding: 10px;
 }
 .new {
   font-size: 20px;
@@ -75,13 +78,84 @@ h3 {
 .btn-offer {
   border: 2px solid var(--primary-color);
 }
+.btn-offer:hover {
+  background-color: var(--primary-color);
+}
+.btn-branding:hover {
+  background-color: var(--primary-color);
+}
+.btn-mail {
+  border: 2px solid var(--mono-color);
+  font-size: 18px;
+}
+.btn-mail:hover {
+  background-color: var(--primary-color);
+}
+.about {
+  display: block;
+  text-align: center;
+}
+.business {
+  font-size: 20px;
+  text-align: center;
+  margin: 10px;
+  font-weight: normal;
+  font-style: italic;
+  font-family: "Cardo", serif;
+}
+.heading {
+  color: var(--primary-color);
+  font-size: 35px;
+  margin: 10px;
+}
+.follow {
+  text-align: center;
+  font-size: 18px;
+}
+.inform {
+  margin: 10px;
+  font-size: 30px;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  font-family: "Cardo", serif;
+  font-size: 22px;
+  padding: 30px;
+}
+
+.info {
+  text-align: center;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-style: italic;
+  margin: 30px;
+  padding: 10px;
+}
+.contact-page {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px;
+  padding: 10px;
+}
+.offer-page {
+  margin: 10px;
+  font-size: 30px;
+}
+
 @media (max-width: 900px) {
   .new {
     padding: 0;
     text-align: center;
     font-size: 20px;
   }
-  .btn-branding {
-    display: block;
+  .designed {
+    padding: 0;
+    text-align: center;
+    font-size: 20px;
+  }
+  .info {
+    padding: 0;
+    text-align: center;
   }
 }
