@@ -53,7 +53,7 @@ hr {
 .new {
   font-size: 20px;
 }
-.brand {
+.custom {
   text-decoration: underline;
   text-align: left;
   margin-top: 10px;
@@ -112,6 +112,14 @@ h3 {
   text-align: center;
   font-size: 18px;
 }
+.follow a {
+  color: #3baea0;
+  text-decoration: none;
+  margin: 10px;
+}
+.follow a:hover {
+  color: #ffb5b5;
+}
 .inform {
   margin: 10px;
   font-size: 30px;
@@ -119,10 +127,14 @@ h3 {
 footer {
   display: flex;
   justify-content: center;
-
   font-family: "Cardo", serif;
   font-size: 22px;
   padding: 30px;
+}
+.codes {
+  text-align: center;
+  font-size: 18px;
+  font-family: "Cardo", serif;
 }
 .square {
   text-decoration: none;
@@ -141,7 +153,7 @@ footer {
 
 .info {
   text-align: center;
-  font-size: 20px;
+  font-size: 18px;
   font-family: "Poppins", sans-serif;
   font-style: italic;
   margin: 30px;
