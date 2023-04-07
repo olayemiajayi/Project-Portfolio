@@ -92,8 +92,8 @@ h3 {
   background-color: var(--primary-color);
 }
 .about {
-  display: block;
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 .business {
   font-size: 20px;
